@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+<data>
+  <model id="1" name="07 Akne.wav" sampleRate="44100" start="0" end="8970528" type="wavefile" file="/Volumes/Private/iTunes/iTunes Music/Zweieck/Zwielicht/07 Akne.wav" mainModel="true"/>
+  <playparameters mute="false" pan="0" gain="1" pluginId="" model="1"/>
+  <model id="3" name="" sampleRate="44100" start="0" end="8616304" type="sparse" dimensions="1" resolution="1" notifyOnAdd="true" dataset="2" />
+  <dataset id="2" dimensions="1">
+    <point frame="0" label="N" />
+    <point frame="27809" label="A:min" />
+    <point frame="103132" label="F" />
+    <point frame="175368" label="G" />
+    <point frame="252632" label="E:min" />
+    <point frame="327888" label="F" />
+    <point frame="404841" label="D/3" />
+    <point frame="479481" label="G" />
+    <point frame="556400" label="E/3" />
+    <point frame="630477" label="A:min" />
+    <point frame="705270" label="F" />
+    <point frame="780715" label="G" />
+    <point frame="857006" label="E:min" />
+    <point frame="931736" label="F" />
+    <point frame="1007628" label="D/3" />
+    <point frame="1084174" label="G" />
+    <point frame="1160031" label="E/3" />
+    <point frame="1232518" label="A:min" />
+    <point frame="1307995" label="F" />
+    <point frame="1385480" label="G" />
+    <point frame="1461671" label="E:min" />
+    <point frame="1537883" label="F" />
+    <point frame="1611269" label="D:min" />
+    <point frame="1687604" label="D:min7" />
+    <point frame="1766142" label="E:7" />
+    <point frame="1932235" label="N" />
+    <point frame="2064960" label="A:min" />
+    <point frame="2103859" label="G" />
+    <point frame="2140560" label="F" />
+    <point frame="2215691" label="G" />
+    <point frame="2291236" label="E:min" />
+    <point frame="2365468" label="E" />
+    <point frame="2485054" label="E:7" />
+    <point frame="2519105" label="F" />
+    <point frame="2669040" label="A:min" />
+    <point frame="2819520" label="F" />
+    <point frame="2897676" label="D:min" />
+    <point frame="2972479" label="E:aug" />
+    <point frame="2995989" label="E:7" />
+    <point frame="3048480" label="A:min" />
+    <point frame="3126337" label="F" />
+    <point frame="3201334" label="G" />
+    <point frame="3276000" label="E:min" />
+    <point frame="3351600" label="F" />
+    <point frame="3428677" label="D/3" />
+    <point frame="3503520" label="G" />
+    <point frame="3578400" label="E/3" />
+    <point frame="3650433" label="A:min" />
+    <point frame="3728160" label="F" />
+    <point frame="3803904" label="G" />
+    <point frame="3881150" label="E:min" />
+    <point frame="3956400" label="F" />
+    <point frame="4032720" label="D/3" />
+    <point frame="4107600" label="G" />
+    <point frame="4182480" label="E/3" />
+    <point frame="4257762" label="A:min" />
+    <point frame="4331706" label="F" />
+    <point frame="4408604" label="G" />
+    <point frame="4484222" label="E:min" />
+    <point frame="4559313" label="F" />
+    <point frame="4595582" label="N" />
+    <point frame="4636156" label="D:min7" />
+    <point frame="4788924" label="E:7" />
+    <point frame="4954731" label="N" />
+    <point frame="5088240" label="A:min" />
+    <point frame="5126542" label="G" />
+    <point frame="5167115" label="F" />
+    <point frame="5240148" label="G" />
+    <point frame="5316350" label="E:min" />
+    <point frame="5391450" label="E" />
+    <point frame="5503359" label="E:7" />
+    <point frame="5541077" label="F" />
+    <point frame="5696465" label="A:min" />
+    <point frame="5846124" label="F" />
+    <point frame="5919658" label="D:min" />
+    <point frame="5994362" label="E:aug" />
+    <point frame="6018783" label="E:7" />
+    <point frame="6071684" label="A:min" />
+    <point frame="6149006" label="F" />
+    <point frame="6224400" label="G" />
+    <point frame="6302459" label="E:min" />
+    <point frame="6375099" label="F" />
+    <point frame="6417235" label="G" />
+    <point frame="6489360" label="Bb:min" />
+    <point frame="6526781" label="Ab" />
+    <point frame="6563878" label="Gb" />
+    <point frame="6640115" label="Ab" />
+    <point frame="6714217" label="F:min" />
+    <point frame="6789007" label="F" />
+    <point frame="6904366" label="F:7" />
+    <point frame="6941090" label="Gb" />
+    <point frame="7093191" label="Bb:min" />
+    <point frame="7242293" label="Gb" />
+    <point frame="7320098" label="Eb:min" />
+    <point frame="7396949" label="F:aug" />
+    <point frame="7421391" label="F" />
+    <point frame="7704128" label="N" />
+    <point frame="7788088" label="Bb:min" />
+    <point frame="7827120" label="Bb:min/b7" />
+    <point frame="7867510" label="Ab:maj7" />
+    <point frame="7904626" label="F:min7" />
+    <point frame="7941259" label="Gb" />
+    <point frame="8152560" label="Bb:sus2" />
+    <point frame="8331449" label="Bb:min" />
+    <point frame="8489549" label="Bb:dim" />
+    <point frame="8568000" label="Bb:(1,5)" />
+    <point frame="8616304" label="N" />
+  </dataset>
+  <playparameters mute="false" pan="0" gain="1" pluginId="dssi:_builtin:sample_player" model="3">
+    <plugin identifier="sample_player" name="Library Sample Player" description="" maker="Chris Cannam" version="1" copyright="GPL"  program="tap" param-Tunedonoff="1" param-BasePitchMIDI="60" param-TuningofAHz="440" param-Sustainonoff="0" configuration="sampledir=/Users/matthiasmauch/.sv1/sv_pE6avb/samples" />
+
+  </playparameters>
+  <layer id="4" type="timeruler" name="Ruler" model="1"  colourName="Black" colour="#000000" darkBackground="false" />
+  <layer id="5" type="waveform" name="Waveform" model="1"  gain="1" showMeans="1" greyscale="1" channelMode="0" channel="-1" scale="0" aggressive="0" autoNormalize="0" colourName="Black" colour="#000000" darkBackground="false" />
+  <layer id="6" type="spectrogram" name="Spectrogram" model="1"  channel="-1" windowSize="4096" windowHopLevel="5" gain="1" threshold="0" minFrequency="11" maxFrequency="1971" colourScale="0" colourScheme="0" colourRotation="0" frequencyScale="1" binDisplay="2" normalizeColumns="true" normalizeVisibleArea="false"/>
+  <layer id="0" type="timeinstants" name="Time Instants" model="3"  plotStyle="0" colourName="Purple" colour="#c832ff" darkBackground="false" />
+  <layer id="7" type="timeruler" name="Ruler &lt;2&gt;" model="1"  colourName="Black" colour="#000000" darkBackground="false" />
+</data>
+<display>
+  <window width="1680" height="1002"/>
+  <view centre="376128" zoom="720" followPan="1" followZoom="1" tracking="page"  type="pane" centreLineVisible="1" height="269" >
+    <layer id="4" type="timeruler" name="Ruler" model="1" visible="true"/>
+    <layer id="5" type="waveform" name="Waveform" model="1" visible="true"/>
+    <layer id="0" type="timeinstants" name="Time Instants" model="3" visible="true"/>
+  </view>
+  <view centre="376128" zoom="720" followPan="1" followZoom="1" tracking="page"  type="pane" centreLineVisible="1" height="602" >
+    <layer id="7" type="timeruler" name="Ruler &lt;2&gt;" model="1" visible="true"/>
+    <layer id="6" type="spectrogram" name="Spectrogram" model="1" visible="true"/>
+  </view>
+</display>
+<selections >
+</selections>
+</sv>

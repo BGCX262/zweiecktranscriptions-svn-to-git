@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+<data>
+  <model id="1" name="13 Paparazzi.wav" sampleRate="44100" start="0" end="10339980" type="wavefile" file="/Volumes/Private/iTunes/iTunes Music/Zweieck/Zwielicht/13 Paparazzi.wav" mainModel="true"/>
+  <playparameters mute="false" pan="0" gain="1" pluginId="" model="1"/>
+  <model id="3" name="" sampleRate="44100" start="0" end="10138210" type="sparse" dimensions="1" resolution="1" notifyOnAdd="true" dataset="2" />
+  <dataset id="2" dimensions="1">
+    <point frame="0" label="N" />
+    <point frame="428176" label="D" />
+    <point frame="641192" label="E" />
+    <point frame="846848" label="A:maj" />
+    <point frame="1378247" label="B:min" />
+    <point frame="1484339" label="B:min/4" />
+    <point frame="1590897" label="F#:min" />
+    <point frame="1643843" label="B:min" />
+    <point frame="1669583" label="C#:min" />
+    <point frame="1695901" label="F#:min" />
+    <point frame="1803926" label="B:min" />
+    <point frame="1908787" label="C#:min" />
+    <point frame="2014560" label="F#:min" />
+    <point frame="2080961" label="A" />
+    <point frame="2121247" label="D" />
+    <point frame="2332186" label="E" />
+    <point frame="2544893" label="G" />
+    <point frame="2753751" label="A" />
+    <point frame="2880512" label="N" />
+    <point frame="2968685" label="A" />
+    <point frame="3071684" label="B:min" />
+    <point frame="3179695" label="B:min/4" />
+    <point frame="3285360" label="F#:min" />
+    <point frame="3337808" label="B:min" />
+    <point frame="3362046" label="C#:min" />
+    <point frame="3389400" label="F#:min" />
+    <point frame="3496320" label="B:min" />
+    <point frame="3600360" label="C#:min" />
+    <point frame="3708000" label="F#:min" />
+    <point frame="3774580" label="A" />
+    <point frame="3813633" label="D" />
+    <point frame="4024440" label="E" />
+    <point frame="4236480" label="G" />
+    <point frame="4447800" label="A" />
+    <point frame="4659753" label="C#" />
+    <point frame="4873077" label="F#:min" />
+    <point frame="5083360" label="C#" />
+    <point frame="5295240" label="D" />
+    <point frame="5400884" label="C#:(1,5)" />
+    <point frame="5482018" label="C:(1,5)" />
+    <point frame="5495040" label="B:(1,5)" />
+    <point frame="5613250" label="A" />
+    <point frame="5719821" label="B:min" />
+    <point frame="5825160" label="B:min/4" />
+    <point frame="5929560" label="F#:min" />
+    <point frame="5983629" label="B:min" />
+    <point frame="6011214" label="C#:min" />
+    <point frame="6038383" label="F#:min" />
+    <point frame="6142814" label="B:min" />
+    <point frame="6247597" label="C#:min" />
+    <point frame="6354488" label="F#:min" />
+    <point frame="6420046" label="A" />
+    <point frame="6457665" label="D" />
+    <point frame="6669720" label="E" />
+    <point frame="6882144" label="G" />
+    <point frame="7094160" label="A" />
+    <point frame="7302878" label="D" />
+    <point frame="7518768" label="E" />
+    <point frame="7728693" label="G" />
+    <point frame="7939567" label="A" />
+    <point frame="8059284" label="N" />
+    <point frame="8152560" label="C#:(1)" />
+    <point frame="8363430" label="F#:(1,5)" />
+    <point frame="8576864" label="C#:(1)" />
+    <point frame="8786520" label="D" />
+    <point frame="8892991" label="C#:(1,5)" />
+    <point frame="8975542" label="A" />
+    <point frame="9000011" label="D" />
+    <point frame="9209318" label="E" />
+    <point frame="9424113" label="G" />
+    <point frame="9639254" label="A" />
+    <point frame="9992114" label="G#:(1,5)" />
+    <point frame="10005877" label="G:(1,5)" />
+    <point frame="10054080" label="F#" />
+    <point frame="10138210" label="N" />
+  </dataset>
+  <playparameters mute="false" pan="0" gain="1" pluginId="dssi:_builtin:sample_player" model="3">
+    <plugin identifier="sample_player" name="Library Sample Player" description="" maker="Chris Cannam" version="-1" copyright="GPL"  program="tap" param-Tunedonoff="1" param-BasePitchMIDI="60" param-TuningofAHz="440" param-Sustainonoff="0" configuration="sampledir=/Users/matthiasmauch/.sv1/sv_0EYxvb/samples" />
+
+  </playparameters>
+  <layer id="4" type="timeruler" name="Ruler" model="1"  colourName="Black" colour="#000000" darkBackground="false" />
+  <layer id="5" type="waveform" name="Waveform" model="1"  gain="1" showMeans="1" greyscale="1" channelMode="0" channel="-1" scale="0" aggressive="0" autoNormalize="0" colourName="Black" colour="#000000" darkBackground="false" />
+  <layer id="0" type="timeinstants" name="Time Instants" model="3"  plotStyle="0" colourName="Purple" colour="#c832ff" darkBackground="false" />
+</data>
+<display>
+  <window width="1280" height="752"/>
+  <view centre="0" zoom="1024" followPan="1" followZoom="1" tracking="page"  type="pane" centreLineVisible="1" height="634" >
+    <layer id="4" type="timeruler" name="Ruler" model="1" visible="true"/>
+    <layer id="5" type="waveform" name="Waveform" model="1" visible="true"/>
+    <layer id="0" type="timeinstants" name="Time Instants" model="3" visible="true"/>
+  </view>
+</display>
+<selections >
+</selections>
+</sv>

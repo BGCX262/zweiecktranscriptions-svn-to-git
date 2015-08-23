@@ -1,0 +1,18 @@
+#summary Explains how to label chords using Sonic Visualiser and the C4DM chord syntax.
+#labels Phase-Implementation
+
+There are millions of ways to annotate chords, and many of them are sensible. Roughly one has to decide
+  # ... which chord syntax to use. In the music computing community [http://ismir2005.ismir.net/proceedings/1080.pdf Chris Harte's] syntax is quite popular. It mainly follows the pop/jazz idiom, but there are some distinctions, which you should be aware of:
+    * there are 16 *shorthands* to describe a chord: {{{maj, min, dim, aug, maj7, min7, 7, dim7, hdim7, minmaj7, maj6, min6, 9, maj9, min9, sus4}}}, for example, one can write {{{F:min7}}}
+    * there is a *colon* between the chord root and the rest of the chord description, e.g. {{{C:min}}}
+    * if the shorthands cannot express what you want to "say" then you can *build your own chords* by specifying a list of degrees, for example, a major chord with the root {{{D}}} and an additional sharp ninth would be {{{D:maj(#9)}}}; a chord with the root {{{D}}} which consists only of the root and a major third would be written as {{{D:(1,3)}}}; etc.
+    * bass notes differing from the root note are notated in slash notation, but as *degrees*, i.e. if you'd normally write Gm7/Bb, you'll now write {{{G:min7/b3}}} (no worries: this can easily be translated back to the standard jazz format).
+  # ... how represent a chords position within the piece: we use [http://www.sonicvisualiser.org/ Sonic Visualiser (SV)], which is a free software to play and display musical low-level and mid-level features, unrivalled in research environments. SV lets you mark specific points in time in a wave file, and label them with chords (or other data, should you want to). To get started, do the following:
+    # Get the current SV program executable binary from http://www.sonicvisualiser.org/download.html. No installation needed, just run the file (works in Windows, MacOS, Linux; otherwise you'll have to compile the source code ...)
+    # Load a .wav file using the drop-down menu or Ctrl-I (Apple-Key-I).
+    # You can play the file now: insert markers by pressing the semicolon key ";" (you can adjust them later!). This automatically creates a "time instants layer" and you can see the annotated markers as vertical lines in a random color. (The active layer should show in the layer-property area to the right.)
+    # Adjust the timing of your markers. You'll want to select the "edit tool" (cossing arrows) from the upper right toolbar: then you can just click, hold and drag the markers to where you want them. (The markers are "sticky", so you'll have to move them quite a bit to see some effect. Holding the shift button suspends the stickiness.)
+    # once the timing of your markers is adjusted, make sure your time-instants layer is selected in the layer-property area on the right. Now you can go to the layers spreadsheet editor by simply pressing the "e" key (or in the menu "Layer -> Edit Layer Data"). The editor pops up: you can modify the third column and enter your chord symbols. Notice that you can still use the space bar to play the song, and the left and right arrows to navigate in the song. 
+    # Try lots of other things and get better acquainted to SV. You'll see, it's an effective instrument for annotating (chord) data.
+    # You can *save* your data in a Sonic Visualiser session file (.sv), or export only the time-instants layer: to do the latter, make sure the layer is selected, then go to "File -> Export Annotation Layer ...". The preferred file format for this website is .csv.
+Have fun!

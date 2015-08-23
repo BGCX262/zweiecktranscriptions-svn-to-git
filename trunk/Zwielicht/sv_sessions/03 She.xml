@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+<data>
+  <model id="1" name="03 She.wav" sampleRate="44100" start="0" end="6988968" type="wavefile" file="/Volumes/Private/iTunes/iTunes Music/Zweieck/Zwielicht/03 She.wav" mainModel="true"/>
+  <playparameters mute="false" pan="0" gain="1" pluginId="" model="1"/>
+  <model id="3" name="" sampleRate="44100" start="0" end="6961152" type="sparse" dimensions="1" resolution="1" notifyOnAdd="true" dataset="2" />
+  <dataset id="2" dimensions="1">
+    <point frame="0" label="149" />
+    <point frame="1" label="N" />
+    <point frame="65113" label="Bb" />
+    <point frame="553320" label="Db:dim" />
+    <point frame="717824" label="C:min7" />
+    <point frame="877927" label="Bb" />
+    <point frame="960766" label="G/3" />
+    <point frame="1039879" label="C:min7" />
+    <point frame="1199672" label="F#:dim" />
+    <point frame="1368311" label="Bb/5" />
+    <point frame="1531334" label="C:7/3" />
+    <point frame="1608448" label="Eb/2" />
+    <point frame="1690726" label="Bb" />
+    <point frame="1773673" label="Eb" />
+    <point frame="1814096" label="Eb/2" />
+    <point frame="1854828" label="Bb" />
+    <point frame="2020578" label="Db:dim" />
+    <point frame="2183424" label="C:min7" />
+    <point frame="2343807" label="Bb" />
+    <point frame="2427122" label="G/3" />
+    <point frame="2504011" label="C:min7" />
+    <point frame="2671207" label="F#:dim" />
+    <point frame="2834194" label="Bb/5" />
+    <point frame="2996736" label="C:7/3" />
+    <point frame="3076220" label="Eb/2" />
+    <point frame="3158780" label="Bb" />
+    <point frame="3290368" label="Ab" />
+    <point frame="3322453" label="Gb" />
+    <point frame="3483122" label="Db" />
+    <point frame="3648453" label="Cb/5" />
+    <point frame="3809792" label="Bb/5" />
+    <point frame="3973834" label="Eb:min" />
+    <point frame="4052182" label="Ab" />
+    <point frame="4136025" label="Db" />
+    <point frame="4216064" label="Bb" />
+    <point frame="4299370" label="C" />
+    <point frame="4549964" label="F" />
+    <point frame="4654666" label="Bb" />
+    <point frame="4822793" label="Db:dim" />
+    <point frame="4987904" label="C:min7" />
+    <point frame="5154048" label="Bb" />
+    <point frame="5235865" label="G/3" />
+    <point frame="5318651" label="C:min7" />
+    <point frame="5482365" label="F#:dim" />
+    <point frame="5653336" label="Bb/5" />
+    <point frame="5819648" label="C:7/3" />
+    <point frame="5904384" label="F:7" />
+    <point frame="5987551" label="Eb" />
+    <point frame="6116004" label="N" />
+    <point frame="6156436" label="Bb" />
+    <point frame="6326983" label="Db:dim" />
+    <point frame="6489600" label="C:min7" />
+    <point frame="6575707" label="Eb/2" />
+    <point frame="6676259" label="Bb" />
+    <point frame="6961152" label="N" />
+  </dataset>
+  <playparameters mute="false" pan="0" gain="1" pluginId="dssi:_builtin:sample_player" model="3">
+    <plugin identifier="sample_player" name="Library Sample Player" description="" maker="Chris Cannam" version="1" copyright="GPL"  program="tap" param-Tunedonoff="1" param-BasePitchMIDI="60" param-TuningofAHz="440" param-Sustainonoff="0" configuration="sampledir=/Users/matthiasmauch/.sv1/sv_MxZ7ub/samples" />
+
+  </playparameters>
+  <layer id="0" type="timeinstants" name="Time Instants" model="3"  plotStyle="0" colourName="Orange" colour="#ff9632" darkBackground="false" />
+  <layer id="4" type="waveform" name="Waveform" model="1"  gain="1" showMeans="1" greyscale="0" channelMode="0" channel="-1" scale="0" aggressive="0" autoNormalize="0" colourName="Blue" colour="#000080" darkBackground="false" />
+  <layer id="5" type="timeruler" name="Ruler" model="1"  colourName="Black" colour="#000000" darkBackground="false" />
+</data>
+<display>
+  <window width="1280" height="752"/>
+  <view centre="1961983" zoom="1024" followPan="1" followZoom="1" tracking="page"  type="pane" centreLineVisible="1" height="634" >
+    <layer id="5" type="timeruler" name="Ruler" model="1" visible="true"/>
+    <layer id="4" type="waveform" name="Waveform" model="1" visible="true"/>
+    <layer id="0" type="timeinstants" name="Time Instants" model="3" visible="true"/>
+  </view>
+</display>
+<selections >
+</selections>
+</sv>

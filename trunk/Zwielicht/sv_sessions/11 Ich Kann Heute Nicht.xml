@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+<data>
+  <model id="1" name="11 Ich Kann Heute Nicht.wav" sampleRate="44100" start="0" end="6093444" type="wavefile" file="/Volumes/Private/iTunes/iTunes Music/Zweieck/Zwielicht/11 Ich Kann Heute Nicht.wav" mainModel="true"/>
+  <playparameters mute="false" pan="0" gain="1" pluginId="" model="1"/>
+  <model id="3" name="" sampleRate="44100" start="0" end="5988780" type="sparse" dimensions="1" resolution="1" notifyOnAdd="true" dataset="2" />
+  <dataset id="2" dimensions="1">
+    <point frame="0" label="N" />
+    <point frame="23151" label="C" />
+    <point frame="72329" label="C:7/3" />
+    <point frame="116711" label="F:7" />
+    <point frame="207741" label="D:6" />
+    <point frame="256500" label="G:7" />
+    <point frame="302749" label="C" />
+    <point frame="358560" label="N" />
+    <point frame="489240" label="D:min7" />
+    <point frame="535140" label="G:sus4" />
+    <point frame="567986" label="G" />
+    <point frame="580020" label="C" />
+    <point frame="768712" label="D:min" />
+    <point frame="816818" label="G:sus4" />
+    <point frame="845737" label="G" />
+    <point frame="862217" label="C" />
+    <point frame="957473" label="A:min7" />
+    <point frame="1001210" label="D:7" />
+    <point frame="1047796" label="A:min7" />
+    <point frame="1093293" label="D:7" />
+    <point frame="1142997" label="G:sus4" />
+    <point frame="1188428" label="G" />
+    <point frame="1235452" label="C" />
+    <point frame="1422803" label="D:min" />
+    <point frame="1466379" label="G:sus4" />
+    <point frame="1500367" label="G" />
+    <point frame="1513821" label="C" />
+    <point frame="1705974" label="D:min" />
+    <point frame="1747239" label="G:sus4" />
+    <point frame="1779783" label="G" />
+    <point frame="1794164" label="C" />
+    <point frame="1889422" label="A:min7" />
+    <point frame="1936225" label="D:7" />
+    <point frame="1983614" label="A:min7" />
+    <point frame="2029493" label="D:7" />
+    <point frame="2078488" label="G:sus4" />
+    <point frame="2123673" label="G" />
+    <point frame="2170652" label="C:maj(2)" />
+    <point frame="2263054" label="B:min7(9)" />
+    <point frame="2354924" label="C:7(9)" />
+    <point frame="2448855" label="B:min7(9)" />
+    <point frame="2539980" label="C:7(9)" />
+    <point frame="2635404" label="B:min7(9)" />
+    <point frame="2728396" label="C:7(9)" />
+    <point frame="2821894" label="D:maj6" />
+    <point frame="2867763" label="G:7" />
+    <point frame="2917800" label="C" />
+    <point frame="3011233" label="D:maj6" />
+    <point frame="3058646" label="G:7" />
+    <point frame="3105093" label="C" />
+    <point frame="3291031" label="D:min" />
+    <point frame="3338280" label="G:sus4" />
+    <point frame="3385954" label="C" />
+    <point frame="3402878" label="N" />
+    <point frame="3479938" label="C" />
+    <point frame="3570166" label="D:min" />
+    <point frame="3616661" label="G" />
+    <point frame="3660832" label="C" />
+    <point frame="3690786" label="N" />
+    <point frame="3756240" label="A:min7" />
+    <point frame="3805029" label="D:7" />
+    <point frame="3852329" label="A:min7" />
+    <point frame="3897485" label="D:7" />
+    <point frame="3945316" label="G:sus4" />
+    <point frame="3991140" label="G" />
+    <point frame="4038959" label="C" />
+    <point frame="4224960" label="D:min" />
+    <point frame="4270770" label="G" />
+    <point frame="4318871" label="C" />
+    <point frame="4505040" label="D:min" />
+    <point frame="4550888" label="G:sus4" />
+    <point frame="4582560" label="G" />
+    <point frame="4599540" label="C" />
+    <point frame="4691649" label="A:min7" />
+    <point frame="4737855" label="D:7" />
+    <point frame="4784442" label="A:min7" />
+    <point frame="4831347" label="D:7" />
+    <point frame="4878272" label="G:sus4" />
+    <point frame="4924448" label="G" />
+    <point frame="4972476" label="C" />
+    <point frame="5060683" label="B:min7(9)" />
+    <point frame="5155740" label="C:7(9)" />
+    <point frame="5249983" label="B:min7(9)" />
+    <point frame="5343083" label="C:7(9)" />
+    <point frame="5438315" label="B:min7(9)" />
+    <point frame="5532573" label="C:7(9)" />
+    <point frame="5623777" label="D:maj6" />
+    <point frame="5669820" label="G:7" />
+    <point frame="5718420" label="C" />
+    <point frame="5813460" label="D:maj6" />
+    <point frame="5861525" label="G:7" />
+    <point frame="5907412" label="C" />
+    <point frame="5988780" label="N" />
+  </dataset>
+  <playparameters mute="false" pan="0" gain="1" pluginId="dssi:_builtin:sample_player" model="3">
+    <plugin identifier="sample_player" name="Library Sample Player" description="" maker="Chris Cannam" version="-1" copyright="GPL"  program="tap" param-Tunedonoff="1" param-BasePitchMIDI="60" param-TuningofAHz="440" param-Sustainonoff="0" configuration="sampledir=/Users/matthiasmauch/.sv1/sv_5ngevb/samples" />
+
+  </playparameters>
+  <layer id="4" type="timeruler" name="Ruler" model="1"  colourName="Black" colour="#000000" darkBackground="false" />
+  <layer id="5" type="spectrogram" name="Spectrogram" model="1"  channel="-1" windowSize="4096" windowHopLevel="5" gain="1.77828" threshold="0" minFrequency="40" maxFrequency="2000" colourScale="0" colourScheme="0" colourRotation="0" frequencyScale="1" binDisplay="2" normalizeColumns="true" normalizeVisibleArea="false"/>
+  <layer id="0" type="timeinstants" name="Time Instants" model="3"  plotStyle="0" colourName="Purple" colour="#c832ff" darkBackground="false" />
+  <layer id="6" type="waveform" name="Waveform" model="1"  gain="1" showMeans="1" greyscale="0" channelMode="0" channel="-1" scale="0" aggressive="0" autoNormalize="0" colourName="Red" colour="#800000" darkBackground="false" />
+</data>
+<display>
+  <window width="1615" height="962"/>
+  <view centre="5897052" zoom="360" followPan="1" followZoom="1" tracking="page"  type="pane" centreLineVisible="1" height="844" >
+    <layer id="4" type="timeruler" name="Ruler" model="1" visible="true"/>
+    <layer id="6" type="waveform" name="Waveform" model="1" visible="true"/>
+    <layer id="5" type="spectrogram" name="Spectrogram" model="1" visible="true"/>
+    <layer id="0" type="timeinstants" name="Time Instants" model="3" visible="true"/>
+  </view>
+</display>
+<selections >
+</selections>
+</sv>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+<data>
+  <model id="7" name="01 Spiel Mir Eine Alte Melodie.wav" sampleRate="44100" start="0" end="7272972" type="wavefile" file="/Volumes/Private/iTunes/iTunes Music/Zweieck/Zwielicht/01 Spiel Mir Eine Alte Melodie.wav" mainModel="true"/>
+  <playparameters mute="false" pan="0" gain="1" pluginId="" model="7"/>
+  <model id="9" name="" sampleRate="44100" start="0" end="7180585" type="sparse" dimensions="1" resolution="1" notifyOnAdd="true" dataset="8" />
+  <dataset id="8" dimensions="1">
+    <point frame="0" label="N" />
+    <point frame="66656" label="C" />
+    <point frame="217657" label="G:9" />
+    <point frame="294479" label="N" />
+    <point frame="490782" label="C" />
+    <point frame="638454" label="G:9" />
+    <point frame="917320" label="C" />
+    <point frame="997256" label="G" />
+    <point frame="1058282" label="C" />
+    <point frame="1197994" label="G:9" />
+    <point frame="1469130" label="C" />
+    <point frame="1551151" label="G" />
+    <point frame="1611288" label="C" />
+    <point frame="1759356" label="G:9" />
+    <point frame="2040541" label="C" />
+    <point frame="2118156" label="G" />
+    <point frame="2179178" label="C" />
+    <point frame="2320836" label="G:9" />
+    <point frame="2606388" label="C" />
+    <point frame="2686879" label="G" />
+    <point frame="2745277" label="C" />
+    <point frame="2881983" label="G:9" />
+    <point frame="3161456" label="C" />
+    <point frame="3230966" label="G" />
+    <point frame="3300586" label="C" />
+    <point frame="3438080" label="G:9" />
+    <point frame="3710643" label="C" />
+    <point frame="3792836" label="G" />
+    <point frame="3850295" label="C" />
+    <point frame="3989082" label="G:9" />
+    <point frame="4262156" label="C" />
+    <point frame="4333198" label="G" />
+    <point frame="4402219" label="C" />
+    <point frame="4536971" label="G:9" />
+    <point frame="4810740" label="C" />
+    <point frame="4893401" label="G" />
+    <point frame="4950478" label="C" />
+    <point frame="5088509" label="G:9" />
+    <point frame="5356893" label="C" />
+    <point frame="5435957" label="G" />
+    <point frame="5493427" label="C" />
+    <point frame="5560106" label="C:7" />
+    <point frame="5629621" label="F" />
+    <point frame="5689585" label="D:7" />
+    <point frame="5763659" label="G" />
+    <point frame="5903023" label="C" />
+    <point frame="5976767" label="G" />
+    <point frame="6039239" label="C" />
+    <point frame="6179620" label="G:9" />
+    <point frame="6454466" label="C" />
+    <point frame="6525729" label="G" />
+    <point frame="6596286" label="C" />
+    <point frame="6735621" label="G:9" />
+    <point frame="7010054" label="C" />
+    <point frame="7180585" label="N" />
+  </dataset>
+  <playparameters mute="false" pan="0" gain="1" pluginId="dssi:_builtin:sample_player" model="9">
+    <plugin identifier="sample_player" name="Library Sample Player" description="" maker="Chris Cannam" version="1" copyright="GPL"  program="tap" param-Tunedonoff="1" param-BasePitchMIDI="60" param-TuningofAHz="440" param-Sustainonoff="0" configuration="sampledir=/Users/matthiasmauch/.sv1/sv_MxZ7ub/samples" />
+
+  </playparameters>
+  <layer id="10" type="timeruler" name="Ruler" model="7"  colourName="Black" colour="#000000" darkBackground="false" />
+  <layer id="11" type="waveform" name="Waveform" model="7"  gain="1" showMeans="1" greyscale="0" channelMode="0" channel="-1" scale="0" aggressive="0" autoNormalize="0" colourName="Red" colour="#800000" darkBackground="false" />
+  <layer id="6" type="timeinstants" name="Time Instants" model="9"  plotStyle="0" colourName="Purple" colour="#c832ff" darkBackground="false" />
+</data>
+<display>
+  <window width="1280" height="752"/>
+  <view centre="0" zoom="360" followPan="1" followZoom="1" tracking="page"  type="pane" centreLineVisible="1" height="634" >
+    <layer id="10" type="timeruler" name="Ruler" model="7" visible="true"/>
+    <layer id="11" type="waveform" name="Waveform" model="7" visible="true"/>
+    <layer id="6" type="timeinstants" name="Time Instants" model="9" visible="true"/>
+  </view>
+</display>
+<selections >
+</selections>
+</sv>

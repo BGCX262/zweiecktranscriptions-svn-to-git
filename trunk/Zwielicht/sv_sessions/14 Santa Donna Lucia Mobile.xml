@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sonic-visualiser>
+<sv>
+<data>
+  <model id="1" name="14 Santa Donna Lucia Mobile.wav" sampleRate="44100" start="0" end="4438812" type="wavefile" file="/Volumes/Private/iTunes/iTunes Music/Zweieck/Zwielicht/14 Santa Donna Lucia Mobile.wav" mainModel="true"/>
+  <playparameters mute="false" pan="0" gain="1" pluginId="" model="1"/>
+  <model id="3" name="" sampleRate="44100" start="0" end="4344464" type="sparse" dimensions="1" resolution="1" notifyOnAdd="true" dataset="2" />
+  <dataset id="2" dimensions="1">
+    <point frame="0" label="N" />
+    <point frame="21264" label="A" />
+    <point frame="95476" label="E" />
+    <point frame="154750" label="E:7" />
+    <point frame="203071" label="A" />
+    <point frame="317721" label="E" />
+    <point frame="441553" label="A" />
+    <point frame="610350" label="E" />
+    <point frame="717094" label="A" />
+    <point frame="827513" label="E" />
+    <point frame="930304" label="A" />
+    <point frame="1039953" label="E" />
+    <point frame="1092240" label="E:7" />
+    <point frame="1142784" label="A" />
+    <point frame="1196559" label="F#:7" />
+    <point frame="1248055" label="B:min" />
+    <point frame="1303552" label="E:7" />
+    <point frame="1356800" label="A" />
+    <point frame="1465393" label="E" />
+    <point frame="1570816" label="A" />
+    <point frame="1678375" label="E" />
+    <point frame="1789452" label="A" />
+    <point frame="1899669" label="D" />
+    <point frame="2006924" label="A" />
+    <point frame="2110643" label="E" />
+    <point frame="2216448" label="A" />
+    <point frame="2265863" label="B" />
+    <point frame="2316514" label="E" />
+    <point frame="2367477" label="C#" />
+    <point frame="2415117" label="F#:min" />
+    <point frame="2465917" label="E" />
+    <point frame="2526720" label="D" />
+    <point frame="2582377" label="A/3" />
+    <point frame="2664539" label="E:7" />
+    <point frame="2710606" label="A" />
+    <point frame="2770984" label="E" />
+    <point frame="2827147" label="E:7" />
+    <point frame="2880642" label="A" />
+    <point frame="2986963" label="E" />
+    <point frame="3094139" label="A" />
+    <point frame="3367973" label="E" />
+    <point frame="3421103" label="E:7" />
+    <point frame="3477628" label="A" />
+    <point frame="3584495" label="E:7" />
+    <point frame="3687945" label="A" />
+    <point frame="3797599" label="D" />
+    <point frame="3906251" label="A" />
+    <point frame="4031846" label="D" />
+    <point frame="4079104" label="A/3" />
+    <point frame="4168368" label="E" />
+    <point frame="4219182" label="A" />
+    <point frame="4344464" label="59" />
+  </dataset>
+  <playparameters mute="false" pan="0" gain="1" pluginId="dssi:_builtin:sample_player" model="3">
+    <plugin identifier="sample_player" name="Library Sample Player" description="" maker="Chris Cannam" version="-1" copyright="GPL"  program="tap" param-Tunedonoff="1" param-BasePitchMIDI="60" param-TuningofAHz="440" param-Sustainonoff="0" configuration="sampledir=/Users/matthiasmauch/.sv1/sv_soQzvb/samples" />
+
+  </playparameters>
+  <layer id="4" type="timeruler" name="Ruler" model="1"  colourName="Black" colour="#000000" darkBackground="false" />
+  <layer id="5" type="waveform" name="Waveform" model="1"  gain="1" showMeans="1" greyscale="1" channelMode="0" channel="-1" scale="0" aggressive="0" autoNormalize="0" colourName="Black" colour="#000000" darkBackground="false" />
+  <layer id="0" type="timeinstants" name="Time Instants" model="3"  plotStyle="0" colourName="Purple" colour="#c832ff" darkBackground="false" />
+</data>
+<display>
+  <window width="1280" height="752"/>
+  <view centre="1241568" zoom="360" followPan="1" followZoom="1" tracking="page"  type="pane" centreLineVisible="1" height="634" >
+    <layer id="4" type="timeruler" name="Ruler" model="1" visible="true"/>
+    <layer id="5" type="waveform" name="Waveform" model="1" visible="true"/>
+    <layer id="0" type="timeinstants" name="Time Instants" model="3" visible="true"/>
+  </view>
+</display>
+<selections >
+</selections>
+</sv>
